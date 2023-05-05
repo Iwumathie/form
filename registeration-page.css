@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+.form-container1{
+    background-color: white;
+    width: 490px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    backdrop-filter: blur(1px);
+    border-radius: 30px;
+    
+    
+    
+}
+.form1 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;  
+   
+   
+}
+.form-container1 input{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    border-color: rgb(0, 255, 183);
+   }
+   .form-container1 label {
+    display: flex;
+   font-size: larger;
+   padding: 10px;
+   }
+
+.tickcheck {   
+    font-size: 15px;
+    align-items: center;
+    justify-content: left;
+    gap: 2px;  
+}
+.tickcheck input {
+    display: flex;
+    gap: 2px;
+    
+    
+}
+.gender {
+    font-size: 25px;
+}
+.tickbox {
+    display: flex;
+    width: 20px;
+    accent-color: rgb(0, 255, 166);
+}
+.terms{
+    display: flex;
+    text-align: justify;
+    
+}
+.terms input {
+    display: flex;
+    width: 13px;
+    font-size: 1px;
+    padding: 0 auto;
+}

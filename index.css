@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 30px 0 30px ;
+    color: red;
+    font-size: 20px;
+  
+   
+    
+}
+.nav a {
+    margin-left: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color: red;
+
+}
+
+.nav a:hover {
+    transform: matrix();
+   text-decoration-line: underline;
+}
+
+.minor {
+    display: flex;
+    gap: 20px;
+   
+   
+    
+} 
+
+.minor a{
+    color: royalblue;
+    text-decoration: none;
+}
+
+.minor a:hover {
+    text-decoration-line: underline;
+}
+
+.form-container{
+    background-color: white;
+    width: 360px;
+   margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(233, 154, 154);
+    box-shadow: 0 0 10px blueviolet;
+    backdrop-filter: blur(1px);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;   
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 18px;  
+}
+.form-group label {
+   color: red;
+   margin: 0px 20px 5px 0;
+   font-size: 25px;
+}
+.form-group input{
+    width: 230px;
+    height: 30px;
+    outline: none;
+    border: 2px solid red;
+    padding-left: 10px;
+    font-size: medium;
+    transition: .8s;
+}
+
+.form-group input:focus{
+   background-color: #b5ebc5;
+}
+
+.groupme{
+   display: flex;
+   justify-content: space-between;
+  margin-top: -30px;
+  color: red;
+}
+
+.remember .check{
+    width: 14px;
+    height: 15px;
+    accent-color: red;
+}
+
+.remember{
+    display: flex;
+  justify-items: center;
+    column-gap: 20px;
+}
+
+.remember .me{
+    font-size: 17px;
+
+}
+.forgot{
+    margin-left: 2px;
+}
+
+.forgot a {
+    color: red;
+    text-decoration: none;
+    
+}
+    
+.forgot a:hover{
+    text-decoration-line: underline;
+        
+    }
+
+.log {
+    display: flex;
+    font-size: larger;
+    padding: 3px;
+    width: 300px;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: red;
+    align-content: flex-start;
+    color: white;
+    border: none;
+    
+}
+
+
+.close {
+    display: flex;
+    font-size: 40px;
+    padding-left: 100%;
+    margin: -19px 0 0 0;
+    color: red;
+    
+    
+    
+    
+    
+}
+
+.new-here {
+    display: flex;
+    color: red;
+    padding-right: 50%;
+    
+    
+}
+
+
+
+    
+
+.sign a {
+    color: rgb(77, 182, 252);
+    text-decoration: none;
+    font-size: 15px;
+}
+.sign label a:hover {
+    text-decoration-line: underline;
+}
+
+
+
+width: 290px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: red;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 10px;
