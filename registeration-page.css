@@ -6,16 +6,13 @@
     background-color: white;
     width: 490px;
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
-   
+    justify-content: center;
     backdrop-filter: blur(1px);
-    border-radius: 30px;
-    
-    
+    border-radius: 30px;    
     
 }
 .form1 {
@@ -67,4 +64,11 @@
     width: 13px;
     font-size: 1px;
     padding: 0 auto;
+}
+
+
+@media only screen and (max-width: 600px){
+    .form-container1{
+        width: 100%;
+    }
 }
